@@ -22,7 +22,7 @@
 
 /**
  * pdfjsVersion = 5.4.0
- * pdfjsBuild = be735617
+ * pdfjsBuild = 5322faf4
  */
 /******/ // The require scope
 /******/ var __webpack_require__ = {};
@@ -729,7 +729,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableAltText: {
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableAltTextModelDownload: {
@@ -741,7 +741,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableComment: {
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   enableDetailCanvas: {
@@ -1510,10 +1510,10 @@ class BasePreferences {
     defaultZoomDelay: 400,
     defaultZoomValue: "",
     disablePageLabels: false,
-    enableAltText: false,
+    enableAltText: true,
     enableAltTextModelDownload: true,
     enableAutoLinking: true,
-    enableComment: false,
+    enableComment: true,
     enableGuessAltText: true,
     enableHighlightFloatingButton: false,
     enableNewAltTextWhenAddingImage: true,
