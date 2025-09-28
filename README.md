@@ -50,7 +50,7 @@
 const editorConfig = {
     enableHighlightFloatingButton: true,
     highlightEditorColors: "yellow=#FFFF98,green=#53FFBC,blue=#80EBFF",
-    enableSignatureEditor: true
+    enableSignatureEditor: true // Enabled by default
 };
 ```
 
