@@ -7293,3 +7293,9 @@ dialog :link{
     display:none;
   }
 }
+@media (hover: none) and (pointer: coarse){
+  #zoomButtons{ display:none !important; }
+}
+@media all and (max-width: 560px){
+  #zoomButtons{ display:none !important; }
+}
